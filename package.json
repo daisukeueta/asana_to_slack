@@ -1,0 +1,22 @@
+{
+  "name": "asana-slack-notifier",
+  "version": "1.0.0",
+  "description": "Asana tasks notification to Slack",
+  "main": "asana-slack-notifier.ts",
+  "scripts": {
+    "start": "tsx asana-slack-notifier.ts",
+    "dev": "tsx watch asana-slack-notifier.ts",
+    "type-check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@slack/web-api": "^7.0.0",
+    "asana": "^3.0.0",
+    "dotenv": "^16.5.0"
+  },
+  "devDependencies": {
+    "@types/asana": "^0.18.16",
+    "@types/node": "^24.0.4",
+    "tsx": "^4.0.0",
+    "typescript": "^5.0.0"
+  }
+}
