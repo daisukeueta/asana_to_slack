@@ -127,7 +127,7 @@ class AsanaSlackNotifier {
     };
 
     // TODOセクション
-    message += '**:statue_of_liberty: TODOs**\n';
+    message += '** :statue_of_liberty: TODOs **\n';
     if (tasks.todo.length === 0) {
       message += '- なし\n';
     } else {
@@ -139,7 +139,7 @@ class AsanaSlackNotifier {
     message += '\n';
 
     // 進行中セクション
-    message += '**:dessert: 進行中**\n';
+    message += '** :taco: 進行中 **\n';
     if (tasks.inProgress.length === 0) {
       message += '- なし\n';
     } else {
